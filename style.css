@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice-card{
+    position: relative;
+    flex-direction: column;
+    width: 400px;
+    height: fit-content;
+    background-color: hsl(217, 19%, 24%);
+    padding: 2%;
+    border-radius:5%;
+    text-align: center;
+    transition: 500ms ease;
+}
+
+.advice-card:hover{
+    transform: scale(1.1);
+    transition: 500ms ease-in-out;
+}
+
+.advice-card .advice-header{
+    margin-top: 0;
+    color:hsl(150, 100%, 66%);
+    letter-spacing: 4px;
+    font-size: 10px;
+}
+
+.advice-card .advice-body{
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+    font-size: 20px;
+    margin: 5%;
+}
+
+.advice-card .advice-footer{
+    margin-bottom: 5%;
+}
+
+.advice-card .advice-footer img{
+    width: 100%;
+}
+
+.dice-btn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    bottom:-20px;
+    left:180px;
+    /* cursor: pointer; */
+}
+
+.dice-btn a img{
+    width: 60%;
+}
+
+.dice-btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
