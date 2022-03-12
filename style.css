@@ -70,7 +70,8 @@ body{
 }
 
 .dice-btn a img{
-    width: 60%;
+    margin-top: 6px;
+    width: 80%;
 }
 
 .dice-btn:hover{
